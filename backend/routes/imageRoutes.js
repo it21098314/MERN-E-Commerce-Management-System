@@ -6,6 +6,8 @@ cloudinary.config({
   cloud_name:  "dvcfip5fe",
   api_key:  "533411778726318",
   api_secret:"T8fEINJkTuTgW8YGj4o8Hh8ziyQ"  
+
+  
 })
 
 router.delete('/:public_id', async(req, res)=> {

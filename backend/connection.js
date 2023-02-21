@@ -8,5 +8,8 @@ mongoose.connect(connectionStr, {useNewUrlparser: true})
 .catch(err => console.log(err))
 
 mongoose.connection.on('error', err => {
+
+
+  
   console.log(err)
 })

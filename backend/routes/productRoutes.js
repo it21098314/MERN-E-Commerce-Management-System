@@ -10,6 +10,12 @@ router.get('/', async(req, res)=> {
     res.status(200).json(products);
   } catch (e) {
     res.status(400).send(e.message);
+
+
+
+
+
+    
   }
 })
 
