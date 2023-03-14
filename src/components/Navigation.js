@@ -137,6 +137,8 @@ function handleToggleNotifications() {
                     ))
                 ) : (
                     <p>No notifcations yet</p>
+
+                    
                 )}
             </div>
     </Navbar>

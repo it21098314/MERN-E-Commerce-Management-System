@@ -16,6 +16,7 @@ function ProductPreview({ _id, category, name, pictures }) {
             </Card>
         </LinkContainer>
     );
+    
 }
 
 export default ProductPreview;

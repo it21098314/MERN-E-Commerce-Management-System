@@ -10,6 +10,7 @@ export default function Pagination({ data, RenderComponent, title, pageLimit, da
 
     function goToPreviousPage() {
         setCurrentPage((page) => page - 1);
+        
     }
 
     function changePage(event) {

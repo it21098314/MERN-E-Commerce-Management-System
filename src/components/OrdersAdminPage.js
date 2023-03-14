@@ -13,6 +13,9 @@ function OrdersAdminPage() {
     const [orderToShow, setOrderToShow] = useState([]);
     const [show, setShow] = useState(false);
 
+
+
+
     const handleClose = () => setShow(false);
 
     function markShipped(orderId, ownerId) {
@@ -29,6 +32,9 @@ function OrdersAdminPage() {
             productCopy.count = productsObj[product._id];
             delete productCopy.description;
             return productCopy;
+
+
+            
         });
         console.log(productsToShow);
         setShow(true);
